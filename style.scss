@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#hero {
+
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 288px;
+  height: 288px;
+  overflow: hidden;
+
+  img {
+    position: relative;
+    width: 1728px;
+    height: 1152px;
+    top: calc(calc(1152px / 2) * -1);
+    left: 0;
+    transform: rotateY(-180deg);
+  }
+}
